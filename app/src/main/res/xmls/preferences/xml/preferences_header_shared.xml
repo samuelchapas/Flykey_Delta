@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.flykey.customkeyboard.settings.ImePreferences$SettingsFragments"
+        android:title="@string/select_language"
+        android:summary="@string/language_selection_title" >
+        <!-- key/value pairs can be included as arguments for the fragment. -->
+        <extra android:name="settings" android:value="@string/select_language" />
+    </header>
+
+    <header
+        android:fragment="com.flykey.customkeyboard.settings.ImePreferences$SettingsFragments"
+        android:title="@string/emoji_icon_set"
+        android:summary="@string/setting_change_icon_set_key_preferences" >
+        <!-- key/value pairs can be included as arguments for the fragment. -->
+        <extra android:name="settings" android:value="@string/emoji_icon_set" />
+    </header>
+</preference-headers>

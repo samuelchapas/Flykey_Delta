@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.flykey.customkeyboard"
+        minSdkVersion 23
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        multiDexEnabled true
+
+        jackOptions {
+            enabled true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res',
+                    'src/main/res/xmls/preferences/xml',
+                    'src/main/res/xmls/input/xml',
+                    'src/main/res/xmls/preferences',
+                    'src/main/res/xmls/input',
+                    'src/main/res/layouts/econs/layout',
+                    'src/main/res/layouts/keyboard/layout',
+                    'src/main/res/layouts/econs',
+                    'src/main/res/layouts/keyboard'
+            ]
+        }
+    }
+}
+
+//erased this compile 'com.android.support:appcompat-v7:25.3.1' for this Warning:WARNING: Dependency
+// org.json:json:20131018 is ignored for debug as it may be conflicting with the internal version provided by Android.
+
+//https://stackoverflow.com/questions/44404308/android-force-gradle-to-include-only-one-version-of-a-library
+//this is a good idea to check it
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    compile 'com.orhanobut:logger:1.15'
+    compile 'com.afollestad.material-dialogs:core:0.9.2.3'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:support-v13:25.3.1'
+    compile 'com.android.support:preference-v14:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:preference-v7:25.3.1'
+}

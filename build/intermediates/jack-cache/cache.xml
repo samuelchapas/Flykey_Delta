@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/samuel/.android/build-cache/6a13ccbe4402dabc7190ad4b6772413d1b2d956b/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e74b1c6434269f7aa7449676d8620444a29fe2b0.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/371dd38f9632cd3e066fb69f3788c779c35b9b24/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b9af182846e0777e3bd9e9637c6178da17bafd12.jar" />
+    </item>
+    <item
+        jar="/home/samuel/Android/Sdk/platforms/android-25/android.jar"
+        revision="25.0.0"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-0c9794ea5dd9237af5721e2d2619f9192b48b8c0.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/d79e66441cec577598d3bfe531eb9cadee094497/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8225749e8a8f63ded2e819891855a3516f2b91c5.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/175eb1895fad6851d6a1c32637e6f0d740e18fe5/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d5c20e0f13bb793d9314ffe90ce661d9214b740c.jar" />
+    </item>
+    <item
+        jar="/home/samuel/Android/Sdk/platforms/android-25/optional/org.apache.http.legacy.jar"
+        revision="25.0.0"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-36e7837b575a68aaa81f754c46e011e96cf3e358.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/6f09a20bba1c7d445211cd214459518789b2d184/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e2ea697f4290dd33974c442914381ff2612ce8ed.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/6a3ef2fc9b9922b0cac782c2adc228b4d54c367f/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8d1d043c76493661d4ca51e5daf97d753d576202.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/37a7fc2cff285199d7e7a999f7ea0823c1f96154/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8b32a3df4b571c2bc1a3e9d37f3d47a521cffab1.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/5ec7569296a91d3931fbb14f52fe9d09523afdc0/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-76189eb5d0131c8a5e02b29b4d05349ccd855d97.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/f181fc8f0fa347ca041e2b4edd22b92a356508d0/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-470e3364fb3b3cd0fde0fd77d6e492eaa5716e54.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/2536fec6bb8654296ad96b8008eac3cf3d9f3c72/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="536228b2496030d983d01856aa56b4d71b57d0db">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-aff468157ffbe1631aaf0a597d4c083d71c34504.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/9ad59b1d306131b74203af920d0775936c5749db/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-c89dfe8c94bd92cd7de6c99e513c15eb6a9aaa1d.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/20bc49c045cdb55112eb0b8596f388319397432e/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="2539d6591fd240270dc5ff8b67701ad63ae42379">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-00b822047b0302ed5d6f15c87bc919d7e67f519a.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/9b2d1c7f257d9c342feb9481786b66aa23f846e2/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="2a156b99fc7cc034308f942906b09d32754a4470">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8b8e94a4d74f5a91c18f5dcc31e6ea562fcedc40.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/76c6d220f936d0f1fa60e0a2e12139efa11fe8f1/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-55154c8289d93f5e2cd7e1d68e68d0a5d180d186.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/7bacb0b97028e5c11e8eab1462a5f2700cd1c466/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9df2ed761fdf850252d41bd8242b7d853d19eedd.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/3d47f1e2e5229b3a91ad9caaeeebe08e2c38f1f2/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-10ef414c18b344612b7e05f8d086a1eeed23fef2.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/9bd00a1218bceb4703241403a446ab621a7a7a26/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="2e46d498b78635da65dc4a0e4c26de85e5c45c83">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e97d524a35f05985259b713eedf7e2b8a0f01d51.jar" />
+    </item>
+    <item
+        jar="/home/samuel/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.3.1-25bf2d599bcaaa78c24b270701542a7bb9e1442a.jar" />
+    </item>
+    <item
+        jar="/home/samuel/.android/build-cache/3514069517b246a2bf05888ab0f9402c7cac8489/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/samuel/Downloads/Archivos/proyectos/FlyKey/AndroidCustomKeyboard-master3/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-260057de60c2199ffe91f7681ceecda47aa8ab72.jar" />
+    </item>
+
+</items>

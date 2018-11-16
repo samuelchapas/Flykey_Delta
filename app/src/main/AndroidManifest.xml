@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.flykey.customkeyboard">
+
+    <uses-sdk xmlns:tools="http://schemas.android.com/tools"
+        tools:overrideLibrary="android.support.v14.preference,android.support.v7.appcompat,android.support.v7.preference,android.support.graphics.drawable,android.support.compat,android.support.v4,android.support.coreutils,android.support.mediacompat,android.support.coreui,android.support.fragment,android.support.v7.recyclerview" />
+
+    <application
+        android:label="@string/ime_name"
+        android:icon="@mipmap/ic_launcher" >
+        <activity
+            android:name=".settings.ImePreferences"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme">
+            <!-- android:label="@string/settings_name" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".ime.SoftKeyboard"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+    </application>
+
+</manifest>
