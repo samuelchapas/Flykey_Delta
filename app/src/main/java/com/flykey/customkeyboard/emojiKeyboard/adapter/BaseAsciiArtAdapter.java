@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import com.blackcj.customkeyboard.R;
+import com.flykey.customkeyboard.R;
 import com.flykey.customkeyboard.emojiKeyboard.InputMethodServiceProxy;
 import com.flykey.customkeyboard.emojiKeyboard.onclicklisteners.LennyFaceOnClickListner;
 

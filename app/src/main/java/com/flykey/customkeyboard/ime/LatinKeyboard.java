@@ -24,7 +24,7 @@ import android.inputmethodservice.Keyboard;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 
-import com.blackcj.customkeyboard.R;
+import com.flykey.customkeyboard.R;
 
 public class LatinKeyboard extends Keyboard {
 

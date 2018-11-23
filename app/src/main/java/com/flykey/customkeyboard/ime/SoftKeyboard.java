@@ -40,7 +40,7 @@ import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 import android.view.textservice.TextServicesManager;
 
-import com.blackcj.customkeyboard.R;
+import com.flykey.customkeyboard.R;
 import com.flykey.customkeyboard.emojiKeyboard.InputMethodServiceProxy;
 
 import java.util.ArrayList;
@@ -312,10 +312,13 @@ public class SoftKeyboard extends InputMethodService
         // If the current selection in the text view changes, we should
         // clear whatever candidate text we have.
         if (mComposing.length() > 0 && (newSelStart != candidatesEnd
-                || newSelEnd != candidatesEnd)) {
+                || newSelEnd != candidatesEnd) && newSelStart != newSelEnd) {
             mComposing.setLength(0);
+
             updateCandidates();
+
             InputConnection ic = getCurrentInputConnection();
+
             if (ic != null) {
                 ic.finishComposingText();
             }
@@ -544,12 +547,12 @@ public class SoftKeyboard extends InputMethodService
     // Implementation of KeyboardViewListener
     //here is where we are taking the words for prediction
     public void onKey(int primaryCode, int[] keyCodes) {
-        Log.d("Test1","KEYCODE: " + primaryCode);
+        //Log.d("Test1","KEYCODE: " + primaryCode);
         if (isWordSeparator(primaryCode)) {
             // Handle separator
             if (mComposing.length() > 0) {
 
-                Log.d("Test2","WORD: " + mComposing.toString());
+                //Log.d("Test2","WORD: " + mComposing.toString());
                 mWords.add(mComposing.toString());
                 commitTyped(getCurrentInputConnection());
                 setSuggestions(mWords, true, true);
@@ -608,7 +611,7 @@ public class SoftKeyboard extends InputMethodService
             if (mComposing.length() > 0) {
                 ArrayList<String> list = new ArrayList<String>();
                 //list.add(mComposing.toString()); //this
-                Log.d("SoftKeyboard", "REQUESTING: " + mComposing.toString());//this was the last version
+                //Log.d("SoftKeyboard", "REQUESTING: " + mComposing.toString());//this was the last version
                 mScs.getSentenceSuggestions(new TextInfo[] {new TextInfo(mComposing.toString())}, 5);//this was the last version
                 setSuggestions(list, true, true);//this was the last version
             } else {

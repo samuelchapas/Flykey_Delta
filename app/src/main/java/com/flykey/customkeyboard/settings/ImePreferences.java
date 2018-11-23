@@ -40,7 +40,7 @@ import com.afollestad.materialdialogs.MaterialDialog;
 //import com.android.inputmethodcommon.InputMethodSettingsImpl;
 import com.android.inputmethodcommon.InputMethodSettingsImpl;
 import com.android.inputmethodcommon.InputMethodSettingsInterface;
-import com.blackcj.customkeyboard.R;
+import com.flykey.customkeyboard.R;
 import com.flykey.customkeyboard.emojiKeyboard.constants.Constants;
 
 import android.widget.Toast;
@@ -55,7 +55,7 @@ public class ImePreferences extends AppCompatActivity {
 
     public static final String CHANGE_ICON_SET_KEY = "icon_set";
     public static final String CHANGE_ICON_SET_VALUE_DEFAULT = "emojione_emoji_";
-    private static final String ARGUMENT_SETTINGS = "settings";
+    //private static final String ARGUMENT_SETTINGS = "settings";
 
     //@Override
     //public Intent getIntent() {
@@ -207,8 +207,7 @@ public class ImePreferences extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             //super.onCreate(savedInstanceState);
             setHasOptionsMenu(true);
-            //getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
-            Log.d("here","OnCreate of the settings fragment");
+
             //final Context context = getActivity();
             //addPreferencesFromResource(R.xml.ime_preferences);
             //PreferenceScreen screen = getPreferenceManager().createPreferenceScreen(context);
@@ -240,27 +239,19 @@ public class ImePreferences extends AppCompatActivity {
 
                 //Preference preference1 = getPreferenceScreen().getPreference(i);
             PreferenceScreen prefScreen = getPreferenceManager().createPreferenceScreen(context);
-                //if(prefScreen.getKey().equals(getString(R.string.main_preference))) {
-                 //   Log.d("Preferences",
-                //            String.valueOf(preference1.getKey().
-                //                    equals(getString(R.string.main_preference))) + " Looking");
-               //     Log.d(" -> Preferences", preference1.getKey() + " we are checking");
-                //    preference1.
-                    //PreferenceScreen pref1 = preference1.getPreferenceManager().createPreferenceScreen(context);
-                    mSettings.init(context, prefScreen);
+            mSettings.init(context, prefScreen);
 
-                    setInputMethodSettingsCategoryTitle(R.string.language_selection_title);
-                    setSubtypeEnablerTitle(R.string.select_language);
-                    //preference1.getPreferenceManager().setPreferences(pref1);
-                //}
-            //}
+            setInputMethodSettingsCategoryTitle(R.string.language_selection_title);
+            setSubtypeEnablerTitle(R.string.select_language);
+
             ListPreference listPref = new ListPreference(context);
             listPref.setKey(getString(R.string.setting_change_icon_set_key));
             listPref.setTitle(getString(R.string.emoji_icon_set));
             listPref.setEntries(R.array.emojiIconsCategory);
             listPref.setEntryValues(R.array.emojiIconsCategoryValues);
-            listPref.setDefaultValue(R.string.setting_change_icon_set_value_emojione);
+            listPref.setDefaultValue(getString(R.string.setting_change_icon_set_value_emojione));
             listPref.setSummary(getString(R.string.summary_icon_set));
+            //listPref.setEntryValues(R.array.emojiIconsCategoryValues);
 
             prefScreen.addPreference(listPref);
             setPreferenceScreen(prefScreen);

@@ -26,7 +26,7 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.blackcj.customkeyboard.R;
+import com.flykey.customkeyboard.R;
 
 import java.util.ArrayList;
 import java.util.List;

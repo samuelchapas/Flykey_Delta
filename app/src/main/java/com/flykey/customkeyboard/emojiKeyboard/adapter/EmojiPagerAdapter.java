@@ -12,7 +12,8 @@ import com.astuetz.PagerSlidingTabStrip;
 
 import java.util.ArrayList;
 
-import com.blackcj.customkeyboard.R;
+
+import com.flykey.customkeyboard.R;
 import com.flykey.customkeyboard.emojiKeyboard.utilities.CategorizedEmojiList;
 import com.flykey.customkeyboard.emojiKeyboard.utilities.Utility;
 import com.flykey.customkeyboard.emojiKeyboard.view.EmojiKeyboardSinglePageView;
